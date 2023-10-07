@@ -1,0 +1,44 @@
+/* Style the header */
+header {
+    background-color: #ff6b81;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style margins and padding for articles */
+article {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the dropdown list */
+select {
+    padding: 5px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #ff6b81;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

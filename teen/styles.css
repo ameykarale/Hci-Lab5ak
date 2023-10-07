@@ -1,0 +1,31 @@
+/* Set the background image for the content container */
+.content-container {
+    background-image: url('teen.jpg'); /* Relative path to the image file */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the image horizontally and vertically */
+    padding: 20px; /* Optional padding for the content container */
+    margin: 0;
+    min-height: 100vh; /* Ensure the image covers the entire viewport height */
+}
+
+/* Style the header */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background color to the header */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add styles for the main content area */
+main {
+    color: #000; /* Text color for content */
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background color to the footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
